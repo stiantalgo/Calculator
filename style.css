@@ -1,0 +1,93 @@
+html{
+    background-color: darkslategray;
+}
+
+#container{
+    background-color: rgb(92, 87, 87);
+    border-radius: 50px;
+    margin: 80px auto;
+    width: 600px;
+    height: 900px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 50px 1px;
+}
+
+#display{
+    border-radius: 20px;
+    margin: 40px;
+    height: 20%;
+    border: 3px solid black;
+    box-shadow: 0 0 20px 1px;
+    
+}
+
+#displayNums{
+    margin: 6%;
+    height: 60%;
+    background-color: aqua;
+    border-style: inset;
+    border-color: rgb(92, 87, 87);;
+    box-shadow: 0 0 20px 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#displayNums2{
+    
+    margin: -75px auto;
+    padding-right: 10px;
+    width: 80%;
+    background-color: aqua;
+    
+    height: 30px;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    font-size: 20px;
+}
+
+
+
+#buttonGrid{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 40px;
+    height:60%;
+    border: 3px solid black;
+    box-shadow: 0 0 20px 1px;
+    flex-wrap: wrap;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(128, 139, 158);
+    text-align: center;
+    border: 1px solid rebeccapurple;
+    font-size: 30px;
+    width: 20%;
+    margin: 10px;  
+    height: 12%;
+}
+
+.buttons:hover{
+    transform: scale(1.03);
+    background-color: rgb(175, 181, 194);
+}
+
+#btn-clear{
+    width: 45%;
+    
+}
+
+#btn-delete{
+    width: 45%;
+    
+}
